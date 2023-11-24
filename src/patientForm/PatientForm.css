@@ -1,0 +1,612 @@
+.registration-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.date-time-info {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  /* margin-left: 30px; */
+  /* padding-left: 80px; */
+  /* background-color: red; */
+}
+
+.date-time-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.date-time-inputs {
+  display: flex;
+  margin-right: 330px;
+  margin-left: 30px;
+}
+.date-container {
+  position: relative;
+  margin-right: 40px;
+}
+
+.date-container input {
+  font-size: 30px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+.date-container input:hover {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.date-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.time-container input {
+  font-size: 30px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+.time-container input:hover {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.time-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.desc {
+  display: flex;
+  font-size: 20px;
+}
+
+.desc #date-desc {
+  margin-left: 390px;
+}
+
+.desc #time-desc {
+  margin-left: 248px;
+}
+
+.health-care-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.health-care-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.health-care-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.health-care-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.health-care-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.health-care-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.line {
+  height: 2px;
+  margin-bottom: 50px;
+  background-blend-mode: overlay;
+  background-color: rgba(141, 135, 135, 0.45);
+}
+
+.patient-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.patient-name-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.patient-name-label {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(54, 53, 51);
+}
+
+.patient-inputs {
+  display: flex;
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.first-name-container input {
+  font-size: 30px;
+  width: 300px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.first-name-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.last-name-container input {
+  font-size: 30px;
+  width: 300px;
+  margin-left: 30px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.last-name-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.sex-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.sex-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.sex-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.sex-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.sex-input-container select {
+  position: relative;
+  font-size: 30px;
+
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+
+.sex-input-container select:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.birth-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.birth-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.birth-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.birth-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.birth-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.birth-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.phone-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.phone-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.phone-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.phone-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.phone-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.phone-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.email-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.email-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.email-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.email-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.email-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.email-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.address-line-one-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.address-line-one-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.address-line-one-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.address-line-one-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.address-line-one-input-container textarea {
+  position: relative;
+  font-size: 30px;
+  height: 60px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.address-line-one-input-container textarea:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.address-line-two-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.address-line-two-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.address-line-two-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.address-line-two-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.address-line-two-input-container textarea {
+  position: relative;
+  font-size: 30px;
+  height: 60px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.address-line-two-input-container textarea:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.address-line-three-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.address-line-three-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.address-line-three-label {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(54, 53, 51);
+}
+
+.place-inputs {
+  display: flex;
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.city-container input {
+  font-size: 30px;
+  width: 300px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.city-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.province-container input {
+  font-size: 30px;
+  width: 300px;
+  margin-left: 30px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.province-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.address-line-four-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.address-line-four-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.address-line-four-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.address-line-four-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.address-line-four-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.address-line-four-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.marital-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.marital-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.marital-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.marital-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.marital-input-container select {
+  position: relative;
+  font-size: 30px;
+
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+
+.marital-input-container select:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.age-q-container {
+  margin-left: 100px;
+  margin-bottom: 50px;
+  /* background-color: red; */
+}
+
+.age-q-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.age-q-label {
+  /* padding: 1rem; */
+  /* background-color: red; */
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.age-q-inputs {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+  align-items: flex-start;
+  margin-right: 410px;
+  /* background-color: red; */
+}
+
+.yes-container {
+  position: relative;
+  display: flex;
+  margin-right: 90px;
+}
+
+.yes-container input {
+  width: 30px;
+  height: 30px;
+}
+
+.yes-container label {
+  font-size: 30px;
+  margin-left: 30px;
+}
+
+.no-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+
+.no-container input {
+  width: 30px;
+  height: 30px;
+}
+
+.no-container label {
+  font-size: 30px;
+  margin-left: 30px;
+}

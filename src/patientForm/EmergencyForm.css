@@ -1,0 +1,238 @@
+.emergency-heading h2 {
+  margin-left: 100px;
+  font-size: 40px;
+  color: #696969;
+}
+
+.emergency-line {
+  height: 2px;
+  margin-bottom: 50px;
+  background-blend-mode: overlay;
+  background-color: rgba(201, 190, 190, 0.45);
+}
+
+.emergency-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.emergency-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.emergency-label {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(54, 53, 51);
+}
+
+.emergency-inputs {
+  display: flex;
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.emergency-first-name-container input {
+  font-size: 30px;
+  width: 300px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.emergency-first-name-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.emergency-last-name-container input {
+  font-size: 30px;
+  width: 300px;
+  margin-left: 30px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.emergency-last-name-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.emergency-relation-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.emergency-relation-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.emergency-relation-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.emergency-relation-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.emergency-relation-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.emergency-relation-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.emergency-phone-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.emergency-phone-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.emergency-phone-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.emergency-phone-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.emergency-phone-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.emergency-phone-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.famDoc-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+
+.famDoc-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.famDoc-label {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(54, 53, 51);
+}
+
+.famDoc-inputs {
+  display: flex;
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.famDoc-first-name-container input {
+  font-size: 30px;
+  width: 300px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.famDoc-first-name-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+.famDoc-last-name-container input {
+  font-size: 30px;
+  width: 300px;
+  margin-left: 30px;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+  transition: box-shadow 0.3s ease;
+}
+
+.famDoc-last-name-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
+
+.famDoc-phone-container {
+  margin-left: 100px;
+  /* background-color: red; */
+}
+.famDoc-phone-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+  margin-bottom: 60px;
+  /* margin-left: 30px;
+  padding-left: 80px; */
+  /* background-color: blue; */
+}
+
+.famDoc-phone-label {
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(54, 53, 51);
+}
+
+.famDoc-phone-inputs {
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.famDoc-phone-input-container input {
+  position: relative;
+  font-size: 30px;
+  width: 630px;
+  transition: box-shadow 0.3s ease;
+  border-color: rgb(54, 53, 51);
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 3px;
+}
+.famDoc-phone-input-container input:focus {
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+}
