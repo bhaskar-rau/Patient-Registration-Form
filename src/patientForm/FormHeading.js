@@ -1,13 +1,12 @@
 import "./FormHeading.css";
 
-function FormHeading(props) {
+function FormHeading() {
   return (
-    <ul className={props.headClass}>
-      <li className="form-info-main">{props.heading}</li>
-      {props.guideline && (
-        <li className="form-guide-line">Please fill in the form below</li>
-      )}
-    </ul>
+    <div className="main-heading">
+      <h2 className="form-info-main">New Patient Registration</h2>
+
+      <p className="form-guide-line">Please fill in the form below</p>
+    </div>
   );
 }
 

@@ -1,14 +1,9 @@
 .card {
   background-color: #fdfff5;
-  position: relative;
-  /* margin-left: 520px; */
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-  margin-left: 20rem;
-  margin-right: 20rem;
+  position: static;
+  max-width: 955px;
+  margin: auto;
   padding: 3rem;
-  /* height: 90vh;*/
-  z-index: 1;
   border-color: #848884;
   border-style: solid;
   border-radius: 8.5px;

@@ -1,6 +1,107 @@
-.the-form {
-  position: static;
-  /* background-color: red; */
-  /* border-style: solid; */
-  margin-top: 2rem;
+.ins-heading {
+  padding-top: 20px;
+  padding-left: 45px;
+}
+
+.ins-heading h2 {
+  font-size: 27px;
+}
+
+.ins-line {
+  background-color: rgb(173, 167, 160);
+  height: 1.4px;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.insComp-container {
+  padding: 15x 0px;
+}
+.insComp-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 18px;
+}
+.insComp-label {
+  padding-left: 49px;
+  padding-right: 100px;
+  font-size: 20px;
+}
+
+.insComp-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+
+.insNum-container {
+  padding: 15x 0px;
+}
+.insNum-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 30px;
+}
+.insNum-label {
+  padding-left: 49px;
+  padding-right: 133px;
+  font-size: 20px;
+}
+
+.insNum-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+
+.polName-container {
+  padding: 15x 0px;
+}
+.polName-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 30px;
+}
+.polName-label {
+  padding-left: 49px;
+  padding-right: 55px;
+  font-size: 20px;
+}
+
+.polName-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+
+.birth-container {
+  padding: 30px 0px;
+}
+.birth-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.birth-label {
+  padding-left: 50px;
+  padding-right: 135px;
+  font-size: 20px;
+}
+
+.birth-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+input.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+select.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+textarea.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
 }

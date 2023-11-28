@@ -1,6 +1,98 @@
-.the-form {
-  position: static;
-  /* background-color: red; */
+.healthHis-heading {
+  padding-top: 20px;
+  padding-left: 45px;
+}
+
+.healthHis-heading h2 {
+  font-size: 27px;
+}
+
+.healthHis-line {
+  background-color: rgb(173, 167, 160);
+  height: 1.4px;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.regReason-container {
+  padding: 15x 0px;
+}
+.regReason-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 18px;
+}
+.regReason-label {
+  padding-left: 50px;
+  padding-right: 100px;
+  font-size: 20px;
+}
+
+.regReason-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+
+.notes-container {
+  padding: 15px 0px;
+}
+.notes-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 25px;
+}
+.notes-label {
+  padding-left: 50px;
+  padding-right: 171px;
+  font-size: 20px;
+}
+
+.notes-input-container textarea {
+  width: 400px;
+  font-size: 20px;
+}
+
+.med-q-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.med-q-label {
+  font-size: 20px;
+  padding-right: 80px;
+  padding-left: 50px;
+}
+
+.med-q-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.yes-container {
+  padding-right: 40px;
+}
+
+.yes-container label {
+  padding-left: 14px;
+}
+.no-container label {
+  padding-left: 14px;
+}
+
+input.input-error {
+  border-color: #00cfc9;
   border-style: solid;
-  margin-top: 2rem;
+}
+select.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+textarea.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
 }

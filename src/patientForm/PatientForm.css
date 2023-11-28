@@ -1,612 +1,326 @@
-.registration-container {
-  margin-left: 100px;
-  /* background-color: red; */
-}
-
 .date-time-info {
-  /* position: relative; */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
-  /* margin-left: 30px; */
-  /* padding-left: 80px; */
-  /* background-color: red; */
 }
-
 .date-time-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.date-time-inputs {
-  display: flex;
-  margin-right: 330px;
-  margin-left: 30px;
-}
-.date-container {
-  position: relative;
-  margin-right: 40px;
-}
-
-.date-container input {
-  font-size: 30px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-.date-container input:hover {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-.date-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
-.time-container input {
-  font-size: 30px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-.time-container input:hover {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-.time-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
-.desc {
-  display: flex;
+  padding-left: 50px;
+  padding-right: 80px;
   font-size: 20px;
 }
-
-.desc #date-desc {
-  margin-left: 390px;
+.date-time-inputs {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
 }
-
-.desc #time-desc {
-  margin-left: 248px;
+.date-container {
+  padding-right: 40px;
 }
-
+.date-container input {
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.time-container input {
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
+  border-style: solid;
+  border-color: #242424;
+  border-radius: 5px;
+}
+/* input.input-error {
+  border-color: red;
+  border-style: solid;
+} */
 .health-care-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
 }
 .health-care-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
+  padding-top: 18px;
 }
-
 .health-care-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.health-care-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 140px;
+  font-size: 20px;
 }
 
 .health-care-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
+  width: 400px;
+  font-size: 20px;
   border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
+  border-color: #242424;
+  border-radius: 5px;
 }
-.health-care-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+input.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+select.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+textarea.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
 }
 
 .line {
-  height: 2px;
-  margin-bottom: 50px;
-  background-blend-mode: overlay;
-  background-color: rgba(141, 135, 135, 0.45);
-}
-
-.patient-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  background-color: rgb(173, 167, 160);
+  height: 1.4px;
+  margin: 30px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .patient-name-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 70px;
 }
-
 .patient-name-label {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(54, 53, 51);
+  padding-left: 50px;
+  padding-right: 200px;
+  font-size: 20px;
 }
-
 .patient-inputs {
   display: flex;
-  margin-right: 180px;
-  margin-left: 30px;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
 }
-
+.first-name-container {
+  padding-right: 40px;
+}
 .first-name-container input {
-  font-size: 30px;
-  width: 300px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.first-name-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 .last-name-container input {
-  font-size: 30px;
-  width: 300px;
-  margin-left: 30px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.last-name-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
 .sex-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 40px 0px;
+  padding-bottom: 20px;
 }
-
 .sex-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 70px;
 }
-
 .sex-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.sex-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 284px;
+  font-size: 20px;
 }
 
 .sex-input-container select {
-  position: relative;
-  font-size: 30px;
-
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-
-.sex-input-container select:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 400px;
+  font-size: 20px;
 }
 
 .birth-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 30px 0px;
 }
 .birth-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
 }
-
-.birth-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.birth-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+.birthTest-label {
+  padding-left: 50px;
+  padding-right: 208px;
+  font-size: 20px;
 }
 
 .birth-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-.birth-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 400px;
+  font-size: 20px;
 }
 
 .phone-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
 }
 .phone-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
 }
-
 .phone-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.phone-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 185px;
+  font-size: 20px;
 }
 
 .phone-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
+  width: 400px;
+  font-size: 20px;
 }
-.phone-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
 .email-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
 }
 .email-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
 }
-
 .email-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.email-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 270px;
+  font-size: 20px;
 }
 
 .email-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
+  width: 400px;
+  font-size: 20px;
 }
-.email-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
 .address-line-one-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
 }
 .address-line-one-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
 }
-
 .address-line-one-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.address-line-one-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 245px;
+  font-size: 20px;
 }
 
 .address-line-one-input-container textarea {
-  position: relative;
-  font-size: 30px;
-  height: 60px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-.address-line-one-input-container textarea:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 400px;
+  font-size: 20px;
 }
 
 .address-line-two-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
 }
 .address-line-two-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
 }
-
 .address-line-two-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.address-line-two-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 320px;
+  font-size: 20px;
 }
 
 .address-line-two-input-container textarea {
-  position: relative;
-  font-size: 30px;
-  height: 60px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-.address-line-two-input-container textarea:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
-.address-line-three-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  width: 400px;
+  font-size: 20px;
 }
 
 .address-line-three-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 70px;
+  padding-top: 20px;
 }
-
 .address-line-three-label {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(54, 53, 51);
+  padding-left: 50px;
+  padding-right: 318px;
+  font-size: 20px;
 }
-
 .place-inputs {
   display: flex;
-  margin-right: 180px;
-  margin-left: 30px;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
 }
-
+.city-container {
+  padding-right: 40px;
+}
 .city-container input {
-  font-size: 30px;
-  width: 300px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.city-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 .province-container input {
-  font-size: 30px;
-  width: 300px;
-  margin-left: 30px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
-
-.province-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
 .address-line-four-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
+}
+.address-line-four-label {
+  padding-left: 50px;
+  padding-right: 320px;
+  font-size: 20px;
 }
 .address-line-four-info {
   display: flex;
+  flex-wrap: wrap;
+
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
-}
-
-.address-line-four-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.address-line-four-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-top: 20px;
 }
 
 .address-line-four-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-.address-line-four-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 400px;
+
+  font-size: 20px;
 }
 
 .marital-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 40px 0px;
+  padding-bottom: 20px;
 }
-
 .marital-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 70px;
 }
-
 .marital-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.marital-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 195px;
+  font-size: 20px;
 }
 
 .marital-input-container select {
-  position: relative;
-  font-size: 30px;
-
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-
-.marital-input-container select:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
-.age-q-container {
-  margin-left: 100px;
-  margin-bottom: 50px;
-  /* background-color: red; */
+  width: 400px;
+  font-size: 20px;
 }
 
 .age-q-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
-
 .age-q-label {
-  /* padding: 1rem; */
-  /* background-color: red; */
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
+  font-size: 20px;
+  padding-right: 80px;
+  padding-left: 50px;
 }
 
 .age-q-inputs {
   display: flex;
-  flex-direction: row;
-  padding-bottom: 30px;
-  align-items: flex-start;
-  margin-right: 410px;
-  /* background-color: red; */
+  flex-wrap: wrap;
+  font-size: 20px;
 }
-
 .yes-container {
-  position: relative;
-  display: flex;
-  margin-right: 90px;
-}
-
-.yes-container input {
-  width: 30px;
-  height: 30px;
+  padding-right: 40px;
 }
 
 .yes-container label {
-  font-size: 30px;
-  margin-left: 30px;
+  padding-left: 14px;
 }
-
-.no-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin-right: 90px;
-}
-
-.no-container input {
-  width: 30px;
-  height: 30px;
-}
-
 .no-container label {
-  font-size: 30px;
-  margin-left: 30px;
+  padding-left: 14px;
+}
+.yes-container input {
+  background-color: #00cfc9;
+}
+.no-container input {
+  background-color: #00cfc9;
 }

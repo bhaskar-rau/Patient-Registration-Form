@@ -1,238 +1,188 @@
+.emergency-heading {
+  padding-top: 50px;
+  padding-left: 45px;
+}
+
 .emergency-heading h2 {
-  margin-left: 100px;
-  font-size: 40px;
-  color: #696969;
+  font-size: 27px;
 }
 
 .emergency-line {
-  height: 2px;
-  margin-bottom: 50px;
-  background-blend-mode: overlay;
-  background-color: rgba(201, 190, 190, 0.45);
-}
-
-.emergency-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  background-color: rgb(173, 167, 160);
+  height: 1.4px;
+  margin: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .emergency-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 70px;
 }
-
 .emergency-label {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(54, 53, 51);
+  padding-left: 50px;
+  padding-right: 140px;
+  font-size: 20px;
 }
-
 .emergency-inputs {
   display: flex;
-  margin-right: 180px;
-  margin-left: 30px;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
 }
-
+.emergency-first-name-container {
+  padding-right: 40px;
+}
 .emergency-first-name-container input {
-  font-size: 30px;
-  width: 300px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.emergency-first-name-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 .emergency-last-name-container input {
-  font-size: 30px;
-  width: 300px;
-  margin-left: 30px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.emergency-last-name-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
 .emergency-relation-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 15px 0px;
 }
 .emergency-relation-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
+  padding-top: 25px;
 }
-
 .emergency-relation-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.emergency-relation-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 205px;
+  font-size: 20px;
 }
 
 .emergency-relation-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-}
-.emergency-relation-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 400px;
+  font-size: 20px;
 }
 
 .emergency-phone-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 30px 0px;
 }
 .emergency-phone-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
+  padding-bottom: 30px;
 }
-
 .emergency-phone-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.emergency-phone-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 170px;
+  font-size: 20px;
 }
 
 .emergency-phone-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
+  width: 400px;
+  font-size: 20px;
 }
-.emergency-phone-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
-}
-
-.famDoc-container {
-  margin-left: 100px;
-  /* background-color: red; */
-}
-
 .famDoc-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 70px;
 }
-
 .famDoc-label {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgb(54, 53, 51);
+  padding-left: 50px;
+  padding-right: 135px;
+  font-size: 20px;
 }
-
 .famDoc-inputs {
   display: flex;
-  margin-right: 180px;
-  margin-left: 30px;
+  flex-wrap: wrap;
+  /* padding-top: 20px; */
 }
-
+.famDoc-first-name-container {
+  padding-right: 40px;
+}
 .famDoc-first-name-container input {
-  font-size: 30px;
-  width: 300px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.famDoc-first-name-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 .famDoc-last-name-container input {
-  font-size: 30px;
-  width: 300px;
-  margin-left: 30px;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
-  transition: box-shadow 0.3s ease;
-}
-
-.famDoc-last-name-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+  width: 180px;
+  font-size: 20px;
+  margin-bottom: 4px;
 }
 
 .famDoc-phone-container {
-  margin-left: 100px;
-  /* background-color: red; */
+  padding: 20px 0px;
 }
 .famDoc-phone-info {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  margin-top: 22px;
-  margin-bottom: 60px;
-  /* margin-left: 30px;
-  padding-left: 80px; */
-  /* background-color: blue; */
+  padding-bottom: 15px;
+  padding-top: 30px;
 }
-
 .famDoc-phone-label {
-  font-size: 25px;
-  font-weight: bolder;
-  color: rgb(54, 53, 51);
-}
-
-.famDoc-phone-inputs {
-  margin-right: 180px;
-  margin-left: 30px;
+  padding-left: 50px;
+  padding-right: 55px;
+  font-size: 20px;
 }
 
 .famDoc-phone-input-container input {
-  position: relative;
-  font-size: 30px;
-  width: 630px;
-  transition: box-shadow 0.3s ease;
-  border-color: rgb(54, 53, 51);
-  border-style: solid;
-  border-radius: 2px;
-  border-width: 3px;
+  width: 400px;
+  font-size: 20px;
 }
-.famDoc-phone-input-container input:focus {
-  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.8);
+.favPharmacy-container {
+  padding: 15px 0px;
+}
+.favPharmacy-relation-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5px;
+}
+.favPharmacy-relation-label {
+  padding-left: 50px;
+  padding-right: 148px;
+  font-size: 20px;
+}
+
+.favPharmacy-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+
+.favPharmacy-phone-container {
+  padding: 20px 0px;
+}
+.favPharmacy-phone-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+.favPharmacy-phone-label {
+  padding-left: 50px;
+  padding-right: 89px;
+  font-size: 20px;
+}
+
+.favPharmacy-phone-input-container input {
+  width: 400px;
+  font-size: 20px;
+}
+input.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+select.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
+}
+textarea.input-error {
+  border-color: #00cfc9;
+  border-style: solid;
 }

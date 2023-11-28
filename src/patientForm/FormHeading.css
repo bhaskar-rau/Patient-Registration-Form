@@ -1,35 +1,12 @@
-.form-heading {
+.main-heading {
+  list-style-type: none;
+  /* background-color: red; */
   text-align: center;
-  display: block;
-  list-style-type: none;
-  /* background-color: blue; */
-  margin: 2rem;
-}
-.form-heading .form-info-main {
-  font-size: 46.5px;
-  /* background-color: green; */
-  margin-right: 30px;
-  padding-bottom: 8.9px;
-  color: #696969;
-  font-weight: 550;
+  font-size: larger;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.form-subHeading {
-  text-align: left;
-  list-style-type: none;
-  /* background-color: red; */
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.form-subHeading .form-info-main {
-  font-size: xx-large;
-}
-
-.form-guide-line {
-  /* background-color: red; */
-  margin-right: 30px;
-  font-size: 23px;
-  font-weight: 400;
-  color: #36454f;
+.form-info-main {
+  padding-bottom: 5px;
 }
